@@ -1,0 +1,88 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+a {
+    white-space: nowrap;
+}
+
+h1 {
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+    font-size: 48px;
+    color:#F9FaF8;
+}
+
+.navbar {
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 16px 150px;
+    background: url("images/cat-logo-back.jpg") no-repeat;
+}
+
+.logo:hover {
+    background: url("images/cat-logo-front.jpg") no-repeat;
+}
+
+.right-links {
+    color: #F9FaF8;
+    display: flex;
+    margin: 16px 150px;
+    gap: 32px;
+    list-style-type: none;
+    cursor:pointer;
+}
+
+.hero {
+    margin: 0px;
+    padding: 0px;
+    height: 350px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-hero {
+    margin: 16px 150px;
+    min-width: 500px;
+    max-width: 500px;
+    height: 200px;;
+}
+
+.subtext {
+    margin: 0px;
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.hero-cat {
+    min-width: 500px;
+    height: 250px;
+    margin: 16px 150px;
+}
+
+.buttons {
+    background-color: #3882F6;
+    color: #E5E7Eb;
+    padding: 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor:pointer;
+}
