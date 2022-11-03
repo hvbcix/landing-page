@@ -2,6 +2,8 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -88,8 +90,9 @@ h2 {
 }
 
 .mid-section {
+    height: 350px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 50px 450px;
     gap: 30px;
 }
@@ -109,4 +112,80 @@ h2 {
 .cat .subtext {
     color: #1f2937;
     width: 200px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.quote, .quote-author {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    max-width: 1000px;
+}
+.quote-author {
+    justify-content: flex-end;
+    font-size: 36px;
+    font-weight: 500;
+    color:#1f2937;
+}
+
+.newsletter-section {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter {
+    border:#3882F6 solid 5px;
+    background-color: #3882F6;
+    padding: 35px 100px;
+    border-radius: 12px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.newsletter-header  {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+}
+
+.newsletter-info {
+    color:white;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.newsletter-section .buttons {
+    border: white solid 2px;
+}
+
+footer {
+    height: 50px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#E5E7Eb; 
+    margin-top: auto;
 }
