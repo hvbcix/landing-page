@@ -81,3 +81,32 @@ h1 {
     margin-top: 10px;
     cursor:pointer;
 }
+
+h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+.mid-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 450px;
+    gap: 30px;
+}
+
+.cat-selection {
+    height: 200px;
+    width: 200px;
+    border:#3882F6 solid 5px;
+    border-radius: 8px;
+}
+
+.cat {
+    align-items: center;
+    text-align: center;
+}
+
+.cat .subtext {
+    color: #1f2937;
+    width: 200px;
+}
